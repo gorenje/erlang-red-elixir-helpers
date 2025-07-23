@@ -1,4 +1,4 @@
 %{
-  "earmark": {:hex, :earmark, "1.4.47", "7e7596b84fe4ebeb8751e14cbaeaf4d7a0237708f2ce43630cfd9065551f94ca", [:mix], [], "hexpm", "3e96bebea2c2d95f3b346a7ff22285bc68a99fbabdad9b655aa9c6be06c698f8"},
+  "earmark": {:hex, :earmark, "1.4.48", "5f41e579d85ef812351211842b6e005f6e0cef111216dea7d4b9d58af4608434", [:mix], [], "hexpm", "a461a0ddfdc5432381c876af1c86c411fd78a25790c75023c7a4c035fdc858f9"},
   "nimble_csv": {:hex, :nimble_csv, "1.2.0", "4e26385d260c61eba9d4412c71cea34421f296d5353f914afe3f2e71cce97722", [:mix], [], "hexpm", "d0628117fcc2148178b034044c55359b26966c6eaa8e2ce15777be3bbc91b12a"},
 }
