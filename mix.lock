@@ -1,4 +1,6 @@
 %{
+  "circuits_i2c": {:hex, :circuits_i2c, "2.1.0", "0656ea5d106744c498a8cd778f39c0685ab574e3da7159814cfbfe709001f0e5", [:make, :mix], [{:elixir_make, "~> 0.6", [hex: :elixir_make, repo: "hexpm", optional: false]}], "hexpm", "3751a875a9d728080fdbc5fd352f728d4746a82e17e52f4444c406200349f6ac"},
   "earmark": {:hex, :earmark, "1.4.48", "5f41e579d85ef812351211842b6e005f6e0cef111216dea7d4b9d58af4608434", [:mix], [], "hexpm", "a461a0ddfdc5432381c876af1c86c411fd78a25790c75023c7a4c035fdc858f9"},
+  "elixir_make": {:hex, :elixir_make, "0.9.0", "6484b3cd8c0cee58f09f05ecaf1a140a8c97670671a6a0e7ab4dc326c3109726", [:mix], [], "hexpm", "db23d4fd8b757462ad02f8aa73431a426fe6671c80b200d9710caf3d1dd0ffdb"},
   "nimble_csv": {:hex, :nimble_csv, "1.2.0", "4e26385d260c61eba9d4412c71cea34421f296d5353f914afe3f2e71cce97722", [:mix], [], "hexpm", "d0628117fcc2148178b034044c55359b26966c6eaa8e2ce15777be3bbc91b12a"},
 }

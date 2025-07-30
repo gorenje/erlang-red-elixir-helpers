@@ -28,4 +28,11 @@ defmodule ErlangRedHelpers do
   def define_csv_parser(module, opts) do
     NimbleCSV.define(module, opts)
   end
+
+  @doc """
+  I2C detect devices
+  """
+  def detect_i2c_devices() do
+    Circuits.I2C.detect_devices()
+  end
 end

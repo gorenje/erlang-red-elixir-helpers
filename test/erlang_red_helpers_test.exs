@@ -23,4 +23,8 @@ defmodule ErlangRedHelpersTest do
   test "nimble own csv parser" do
     assert SemiColonSep.parse_string("name;age\njim;27\n") == [["jim", "27"]]
   end
+
+  test "does i2c detect devices function" do
+    ErlangRedHelpers.detect_i2c_devices()
+  end
 end

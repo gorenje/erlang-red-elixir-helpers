@@ -22,7 +22,8 @@ defmodule ErlangRedHelpers.MixProject do
   defp deps do
     [
       {:earmark, "1.4.48"},
-      {:nimble_csv, "1.2.0"}
+      {:nimble_csv, "1.2.0"},
+      {:circuits_i2c, "2.1.0"}
     ]
   end
 end
