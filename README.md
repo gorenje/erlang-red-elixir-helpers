@@ -13,6 +13,7 @@ Many thanks to [@filmor](https://github.com/filmor) for the tip of using exerl p
 - [earmark](https://github.com/pragdave/earmark) - for the [markdown](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_markdown.erl) node
 - [nimble_csv](https://github.com/dashbitco/nimble_csv) for the [csv](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_csv.erl) node (WIP)
 - [circuits_i2c](https://hexdocs.pm/circuits_i2c/readme.html) for the [i2c out](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_i2c_out.erl) node (WIP)
+- [temple](https://github.com/mhanberg/temple) because I want to add a Elixir module node and need examples modules
 
 ## Why?
 
