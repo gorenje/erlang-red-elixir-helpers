@@ -6,7 +6,7 @@
        kernel,
        stdlib,
        nimble_csv,
-       earmark,
+       mdex,
        circuits_i2c,
        erlang_red_helpers
     ]},

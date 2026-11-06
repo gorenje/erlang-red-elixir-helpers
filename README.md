@@ -10,7 +10,7 @@ Many thanks to [@filmor](https://github.com/filmor) for the tip of using exerl p
 
 ## Libraries contained here
 
-- [earmark](https://github.com/pragdave/earmark) - for the [markdown](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_markdown.erl) node
+- [mdex](https://hex.pm/packages/mdex) - for the [markdown](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_markdown.erl) node
 - [nimble_csv](https://github.com/dashbitco/nimble_csv) for the [csv](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_csv.erl) node (WIP)
 - [circuits_i2c](https://hexdocs.pm/circuits_i2c/readme.html) for the [i2c out](https://github.com/gorenje/erlang-red/blob/main/src/nodes/ered_node_i2c_out.erl) node (WIP)
 - [temple](https://github.com/mhanberg/temple) because I want to add a Elixir module node and need examples modules
@@ -22,3 +22,17 @@ Because I'm not a purist but a ployglot programmer.
 Some things are simply better in Elixir than Erlang but both use the BEAM VM - so why not take advantage of that.
 
 Projects like Erlang-RED and Node-RED, that aim to unify much functionality, require many libraries to make them work. Node-RED benefits from the large community around [NPMjs](https://npmjs.org) while Erlang-RED benefits from [hex](https://hex.pm/) which is a mixture of Erlang and Elixir codebases.
+
+## Local Development
+
+Start the docker development image
+
+`make start-docker-shell`
+
+Inside the shell:
+
+```
+mix get.deps
+mix compile
+mix test
+```

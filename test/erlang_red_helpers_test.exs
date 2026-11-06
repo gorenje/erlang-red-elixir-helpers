@@ -5,8 +5,8 @@ defmodule ErlangRedHelpersTest do
   ErlangRedHelpers.define_csv_parser(SemiColonSep, separator: ";", escape: "\"")
 
   test "earmark basic" do
-    assert ErlangRedHelpers.markdown_to_html("# hello wolrd") ==
-             {:ok, "<h1>\nhello wolrd</h1>\n", []}
+    assert ErlangRedHelpers.markdown_to_html("# hello world") ==
+             {:ok, "<h1>hello world</h1>"}
   end
 
   test "nimble csv basic" do

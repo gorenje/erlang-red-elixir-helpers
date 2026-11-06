@@ -1,4 +1,4 @@
-FROM erlang:27.3.0.0
+FROM erlang:29.1.2
 
 ## this is required for erlexec
 ENV SHELL=/bin/bash
@@ -13,11 +13,12 @@ RUN apt-get update && apt-get -y install \
     git \
     inotify-tools \
     cmake \
-    mosquitto
+    mosquitto \
+    libnuma-dev \
+    libnuma1
 
-# apt-get package elixir does not work with OTP 27.
 WORKDIR /elixir
-RUN git clone --branch v1.18.3 https://github.com/elixir-lang/elixir.git
+RUN git clone --branch v1.20.5 https://github.com/elixir-lang/elixir.git
 
 WORKDIR /elixir/elixir
 RUN make

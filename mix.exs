@@ -5,7 +5,7 @@ defmodule ErlangRedHelpers.MixProject do
     [
       app: :erlang_red_helpers,
       version: "0.1.7",
-      elixir: "~> 1.18",
+      elixir: "~> 1.20",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -21,10 +21,10 @@ defmodule ErlangRedHelpers.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:earmark, "1.4.48"},
-      {:nimble_csv, "1.2.0"},
-      {:circuits_i2c, "2.1.0"},
-      {:temple, "~> 0.14.0"}
+      {:mdex, "0.14.6"},
+      {:nimble_csv, "1.3.0"},
+      {:circuits_i2c, "2.1.1"},
+      {:temple, "0.14.1"}
     ]
   end
 end
