@@ -4,9 +4,19 @@ defmodule ErlangRedHelpersTest do
 
   ErlangRedHelpers.define_csv_parser(SemiColonSep, separator: ";", escape: "\"")
 
-  test "earmark basic" do
+  test "markdown basic" do
     assert ErlangRedHelpers.markdown_to_html("# hello world") ==
              {:ok, "<h1>hello world</h1>"}
+  end
+
+  test "markdown - support striketrhough by default" do
+    assert ErlangRedHelpers.markdown_to_html("~nope~") ==
+             {:ok, "<p><del>nope</del></p>"}
+  end
+
+  test "markdown - support inline html by default" do
+    assert ErlangRedHelpers.markdown_to_html("<center><b>hello world</b></center>") ==
+             {:ok, "<center><b>hello world</b></center>"}
   end
 
   test "nimble csv basic" do

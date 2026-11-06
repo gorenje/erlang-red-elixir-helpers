@@ -24,7 +24,11 @@ defmodule ErlangRedHelpers.MixProject do
       {:mdex, "0.14.6"},
       {:nimble_csv, "1.3.0"},
       {:circuits_i2c, "2.1.1"},
-      {:temple, "0.14.1"}
+      {:rustler, "0.38.0"},
+      {:temple, "0.14.1"},
+      {:rustler_precompiled, "0.10.1"},
+      {:decimal, "3.2.0"},
+      {:nimble_parsec, "1.4.2"}
     ]
   end
 end

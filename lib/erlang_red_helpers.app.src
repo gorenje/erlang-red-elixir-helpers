@@ -6,6 +6,8 @@
        kernel,
        stdlib,
        nimble_csv,
+       rustler_precompiled,
+       rustler,
        mdex,
        circuits_i2c,
        erlang_red_helpers

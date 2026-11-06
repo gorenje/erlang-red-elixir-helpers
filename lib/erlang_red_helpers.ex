@@ -7,7 +7,7 @@ defmodule ErlangRedHelpers do
   Convert Markdown content to HTML content.
   """
   def markdown_to_html(content) do
-    MDEx.to_html(content)
+    MDEx.to_html(content, extension: [strikethrough: true], render: [unsafe: true])
   end
 
   def markdown_to_html(content, args) do
